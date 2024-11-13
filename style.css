@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    justify-content: center;
+}
+.loader{
+    width: 24px;
+    height: 24px;
+    border: 5px dashed #001a6c;
+    border-radius: 50%;
+    animation: loading 1s infinite linear;
+}
+
+@keyframes loading {
+    0%{
+       transform: rotateZ(0deg); 
+    }
+    100%{
+        transform: rotateZ(360deg); 
+    }
+}
