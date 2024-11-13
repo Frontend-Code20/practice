@@ -10,17 +10,19 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-color: #001a6c;
 }
 .box{
     display: flex;
     align-items: center;    
     flex-direction: column;
     justify-content: center;
+    color: #fff;
 }
 .loader{
     width: 24px;
     height: 24px;
-    border: 5px dashed #001a6c;
+    border: 5px dashed #fff;
     border-radius: 50%;
     animation: loading 1s infinite linear;
 }
